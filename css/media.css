@@ -1,0 +1,234 @@
+/* tablet 768px ~ 1199px */
+@media screen and (min-width:768px){
+  html{font-size: 68.8%;}
+  .mob_only, .mob_btn, .dsk_only{display: none;}
+  
+  #section0{
+    height: 60rem;
+    .main_txt{
+      span{
+        top: 7rem;
+      }
+    }
+  }
+
+  #section1{
+    .s1_rec{
+      .s1_game a img{width: 24rem;}
+    }
+  }
+
+  #section2{
+    .s2_con{
+      width: 36rem;
+      margin-bottom: 5rem;
+    }
+    .s2_con:nth-child(3){width: 48rem;}
+    .s2_con:nth-child(4){width: 62rem;}
+    .button{height: 7rem;}
+  }
+
+  #section3{
+    .s3_con_box{
+      margin-bottom: 10rem;
+      img{
+        width: 23rem;
+        height: 28rem;
+      }
+    }
+    .button{height: 7rem;}
+  }
+
+  #section4{
+    height: 65rem;
+    img{width: 20rem;}
+    .button{margin: 33rem 3rem;}
+  }
+
+  #section5{
+    .s5_con img{
+      width: 30rem;
+    }
+    .s5_con img:nth-child(2){
+      left: 40rem;
+    }
+    .s5_con img:nth-child(3){
+      left: 20rem;
+    }
+  }
+  #section6{
+    .s6_rn img{width: 10rem;}
+    .s6_rn img:nth-child(1){left: 20rem;}
+    .s6_rn img:nth-child(2){left: 33rem;}
+    .s6_rn img:nth-child(3){left: 16rem;}
+    .s6_rn img:nth-child(4){left: 27rem;}
+    .s6_rn img:nth-child(5){left: 26rem;}
+    .s6_rn img:nth-child(6){left: 41rem;}
+    .s6_rn img:nth-child(7){left: 40rem;}
+    .s6_rn img:nth-child(8){left: 13rem;}
+  }
+
+  #section7{
+    .s7_card:before{height: 12rem;}
+  }
+
+  footer{
+    .footer{
+      img{width: 14rem;}
+    }
+  }
+}
+
+
+/* Desktop 1200px */
+@media screen and (min-width:1200px){
+  
+  html{font-size: 68.8%;}
+
+  .mob_only{display: none;}
+  .mob_btn{display: none;}
+
+  #section0{
+    height: 80rem;
+    .main_txt{
+      background: url(../image/bg1.jpg) no-repeat center/cover;
+      span{
+        font-size: 2.4rem;
+        top: 14rem;
+      }
+      img{
+        width: 30rem;
+        top: 10rem;
+        right: 30rem;
+      }
+    }
+  }
+
+  .pc_header{
+    display: block;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    .desktop_menu{
+      width: 1200px;
+      height: 6rem;
+      margin: auto;
+      .sub_list{
+        display: flex;
+        justify-content: space-around;
+        font-size: 2rem;
+        background-color: #fff;
+        line-height: 6rem;
+        .sub{
+          display: none;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+
+
+
+  /* common */
+  #section1 .s1_rec{
+    height: 18rem;
+    .s1_up {
+      a{
+        font-size: 1.5rem;
+        padding: 3rem 3.4rem;
+      }
+      img{
+        width: 8rem;
+      }
+    }
+    .s1_login a{font-size: 1.8rem;}
+  }
+  #section1 .s1_rec .s1_game a img{width: 34rem;}
+
+  #section2{
+    .s2_img{
+      img{width: 100%;}
+      span{
+        font-size: 3rem;
+        line-height: 5rem;
+        strong{font-size: 3.2rem;}
+      }
+    }
+    .s2_con{
+      font-size: 1.8rem;
+      width: 55rem;
+    }
+    .s2_con:nth-child(3){width: 75rem;}
+    .s2_con:nth-child(4){width: 95rem;}
+    .button{margin-bottom: 20rem;}
+  }
+
+  #section3{
+    .s3_con{
+      margin-top: 12rem;
+    }
+    .button{margin-bottom: 20rem;}
+  }
+  #section4{
+    .button{margin: 30rem auto;}
+    img{margin-right: 15rem;}
+  }
+
+  #section5{
+    .rel{margin-top: 15rem;}
+    .s5_con{
+      margin-left: 20rem;
+      margin-bottom: 20rem;
+      img{
+        width: 36rem;
+      }
+      img:nth-child(2){left: 50rem;}
+      img:nth-child(3){left: 24rem;}
+    }
+  }
+
+  #section6{
+    margin-top: 30rem;
+    margin-bottom: 20rem;
+    .s6_con{
+      .s6_bg{
+        .s6_rn{
+          left: 32%;
+          img{width: 13rem;}
+          img:nth-child(1){left: 10rem;}
+          img:nth-child(6){left: 0rem;}
+          img:nth-child(8){left: 5rem;}
+        }
+      }
+    }
+  }
+
+  /* footer */
+  footer .mob_only{display: none;}
+  footer .pc_footer{display: block;}
+
+  footer{
+    .pc_footer{
+      display: flex;
+      gap: 10rem;
+      color: #fff;
+      margin-top: 6rem;
+      img{
+        height: 8rem;
+      }
+      span{
+        font-family:'Maplestory Light';
+        padding: 1rem;
+        font-size: 1.4rem;
+      }
+      p{
+        font-size: 1.2rem;
+        margin: 3rem auto;
+        text-align: center;
+        line-height: 2rem;
+      }
+
+    }
+  }
+
+}

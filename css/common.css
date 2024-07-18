@@ -1,0 +1,74 @@
+.button{
+  width: 75%;
+  height: 6rem;
+  background-color: #fff;
+  border: 4px solid #D04433;
+  border-radius: 2rem;
+  margin: 12rem auto 0;
+  padding: 1rem;
+  position: relative;
+  cursor: pointer;
+}
+.button span{
+  width: inherit;
+  font-size: 1.6rem;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+.button span strong{
+  font-size: 1.8rem;
+  margin-left: 1rem;
+}
+.button a{
+  width: 13rem;
+  position: absolute;
+  top: 54%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+}
+.button a:before{
+  content: '\2b';
+  font-family: fontawesome;
+  font-size: 1.4rem;
+  color: #fff;
+  position: absolute;
+  top: 44%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.rel{
+  margin: 13rem 3rem 10rem;
+}
+.rel h2{
+  font-size: 2.7rem;
+  margin-bottom: 1.3rem;
+}
+.rel span{
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
+.rel p{
+  font-size: 1.5rem;
+  width: 13rem;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.rel p:before{
+  content: "\f054";
+  font-family: fontawesome;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+}
+.rel p:hover{
+  color: #D04433;
+  font-family: 'Maplestory Bold', sans-serif;
+}

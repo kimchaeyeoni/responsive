@@ -1,0 +1,19 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
+
+@font-face{
+  font-family:'Maplestory Bold';
+  src:url(../font/Maplestory\ Bold.woff) format('woff');
+}
+@font-face{
+  font-family:'Maplestory Light';
+  src:url(../font/Maplestory\ Light.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'seolleimcool-SemiBold';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/seolleimcool-SemiBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+

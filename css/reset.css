@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+body{
+  overflow-x: hidden;
+  font-family: 'Maplestory Light', sans-serif;
+  color: #222;
+}
+img{max-width: 100%;}
+
+li{list-style-type: none;}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+article,aside,details,summary,figcaption,figure,
+footer,header,hgroup,main,nav,section{
+  display: block;
+}
